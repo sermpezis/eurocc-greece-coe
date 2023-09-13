@@ -1,0 +1,59 @@
+CoE,Title,Description
+BioExcel,GROMACS,one of the most used molecular dynamics codes. Highly tuned assembly kernels with hybrid CPU/GPU execution
+BioExcel,HADDOCK,used for integrative modelling. Python wrapper to execute a series of CNS (Crystallography and NMR system) scripts that also run pre and post-processing analysis
+BioExcel,PMX,used to automate the free energy calculations and assess binding between drug and  protein. It uses GROMACS as a backend engine
+BioExcel,BioBB,"Python library consisting of a collection of wrappers on top of biomolecular tools (e.g. GROMACS, HADDOCK, PMX), adding interoperability between them, and allowing an easy  creation of biomolecular simulation workflows. The library combined with BSC PyCOMPSs workflow manager can be used to launch the workflows in HPC systems using thousands of  cores."
+CEEC,ALYA,Multi-physics / multi-scale simulation framework
+CEEC,FLEXI,DG-Spectral element based CFD code
+CEEC,Nek5000 & NekRS,"Spectral element based CFD Codes"
+CEEC,Neko,Spectral element based CFD code
+CEEC,waLBerla,Lattice Boltzmann based multiphysics framework 
+ChEESE,SeisSOL,complex earthquake simulation
+ChEESE,SPECFEM3D,linear seismic wave propagation
+ChEESE,ExaHyPE,special emphasis on ExaSeis collection of seismic models
+ChEESE,Tandem,linear elasticity + sequences of earthquakes and seismic slips
+ChEESE,xSHELLS,"flows, magnetic fields including Geodynamo simulations"
+ChEESE,HySEA,"earthquake –induced Tsunamis"
+ChEESE,FALL3D,"atmospheric transport & ground deposition"
+ChEESE,OpenPDAC,simulation of volcanic fluids
+ChEESE,LaMEM,thermo-mechanical geodynamic modelling
+ChEESE,pTatin3D,simulation of long time-scale geodynamics processes
+ChEESE,ELMER/ICE,Multi-physics package 
+esiwace,EC-Earth,coupled Earth System Model for climate simulations
+esiwace,NEMO,ocean model for climate simulations
+esiwace,ICON,"coupled Earth System Model for climate simulations"
+esiwace,IFS,Atmospheric model for weather simulations
+esiwace,HPCW,"Set of weather & climate benchmarks"
+EXCELLERAT P2,m-AIA,"CFD-related, multi-physics code in C++ with hybrid MPI/OpenMP parallelization and 
+some solvers ported to NVIDIA GPUs "
+EXCELLERAT P2,AVBP,"3D parallel Navier-Stockes solver for reactive multi-phase multi-physics problems 
+using Large Eddy Simulation on unstructured grids (runs on any CPU and NVIDIA GPUs)"
+EXCELLERAT P2,Neko,"SME code running on CPU and GPUs using native accelerator kernels (HIP, Cuda, 
+OpenCL)."
+EXCELLERAT P2,Alya,"Navier-Stokes solver exploiting a Spectral Element discretization. Runs fully on GPUs 
+(mostly tested on Nvidia V100 and A100 GPUs. Poor performance on AMD GPUs). "
+EXCELLERAT P2,CODA,"CFD software, Python frontend, C++ backend, supports hybrid MPI/GASPI + 
+OpenMP + NVIDIA GPUs"
+EXCELLERAT P2,OpenFOAM,"free, open source CFD software"
+EXCELLERAT P2,Mitsuba2,"Monte Carlo Ray tracing for optical and radiative heat transfer simulations (runs on 
+GPUs)"
+EXCELLERAT P2,FLEW,"FVM solver for DNS of compressible flow, written in Fortran and OpenACC"
+MaX,Quantum ESPRESSO ,"an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density-functional theory (DFT), plane waves, and pseudopotentials."
+MaX,SIESTA,a code that performs efficient electronic structure calculations and ab initio molecular dynamics simulations of molecules and solids. SIESTA's efficiency stems from the use of a basis set of strictly-localized atomic orbitals
+MaX,YAMBO,an open-source code implementing first-principles methods based on Green’s function theory to describe excited-state properties of realistic materials
+MaX,FLEUR,a code family for calculating ground-state as well as excited-state properties of solids within the context of DFT. A key difference lies in the treatment of all electrons on the same footing.
+MaX,BigDFT,"an electronic structure pseudopotential code that employs Daubechies wavelets as a 
+computational basis, designed for usage on massively parallel architectures. "
+MultiXscale,EESSI,"complete build and deployment environment for all MultiXscale applications and beyond. Provides a streaming service for scientific software, automatically distributing hardware-optimised applications and updates to all hardware types: supercompters, servers, laptops…even a Raspberry Pi! "
+Plasma-PEPSC,GENE,Plasma microturbulence based on Eulerian calculation and MPI domain decomposition
+Plasma-PEPSC,BIT1,full-size kinetic modelling of plasma edge
+Plasma-PEPSC,Vlasiator,"Semi-Lagrangian simulation of the Vlasov Equation and MPI domain decomposition. OpenMP/MPI hybrid parallelizations, sparse grids. "
+Plasma-PEPSC,PIConGPU,"plasma accelerators at full resolution and scale"
+SPACE,PLUTO,"an Eulerian, finite-volume, shock-capturing code based on high-order Godunov methods providing several integration algorithms. It supports both classical and relativistic flows and it is equipped also with a particle module for hybrid MHD-PIC simulations."
+SPACE,OpenGADGET,one of the most used codes It is a N-body code that solves the gravitational and hydrodynamical equations in their Lagrangian form for a large ensemble of particles. 
+SPACE,CHANGA/GASOLINE,"Tree and Smoothed Particle Magnetohydrodynamics codes that are widely used for cosmological galaxy formation simulations. The two codes have the same implementation, but CHANGA features parallelisation design with Charm++ which enables scaling up to 128K cores for highly-clustered datasets."
+SPACE,iPic3D,fully electromagnetic massively parallel particle in cell based on the semi-implicit approach to address multiple scale problems in plasma physics
+SPACE,RAMSES,"code to to model astrophysical systems, featuring self-gravitating, magnetised, compressible, radiative fluid flow. Based on the Adaptive Mesh Refinement (AMR) technique."
+SPACE,WhiskyTHC,code aimed at solving the general-relativistic hydrodynamics equations on AMR grids by means of high-resolution shock capturing methods. It leverages a high-level C++ programming paradigm to achieve a high degree of efficiency.
+SPACE,FIL,"it employs a fourth-order accurate finite differencing scheme to solve the equations of general-relativistic magnetohydrodynamics. It includes a framework for realistic microphysics through the use of temperature and composition dependent Equation of State tables."
+SPACE,BHAC,"multidimensional general relativistic magnetohydrodynamics code based on the MPI-AMRVAC framework. BHAC solves the equations of ideal general relativistic magnetohydrodynamics in one, two or three dimensions on arbitrary stationary spacetimes."
